@@ -12,6 +12,10 @@
   "scripts": {
     "test": "gulp build && gulp test-without-build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axyjs/axy-events.git"
+  },
   "author": "Oleg Grigoriev <go.vasac@gmail.com>",
   "license": "MIT",
   "devDependencies": {

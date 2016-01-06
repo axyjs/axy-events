@@ -7,3 +7,4 @@ build-helpers
 gulpfile.js
 .eslintrc
 typings/jasmine.d.ts
+.idea

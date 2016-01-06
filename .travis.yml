@@ -1,0 +1,13 @@
+language: node_js
+sudo: false
+node_js:
+  - "5"
+
+install:
+  - npm install
+  - npm install -g coveralls
+
+script:  
+  - gulp clean && gulp lint && gulp build-npm && gulp build-tests-npm && gulp test-coverage
+  - "cat ./coverage/lcov.info | coveralls"
+

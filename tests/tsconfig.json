@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "declaration": false,
+        "noImplicitAny": false,
+        "outDir": "../spec",
+        "rootDir": ".",
+        "sourceMap": false
+    },
+    "filesGlob": [
+        "./**/*.ts"
+    ],
+    "files": [
+        "../typings/jasmine.d.ts"
+    ]
+}

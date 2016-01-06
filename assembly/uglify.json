@@ -1,0 +1,25 @@
+{
+    "compress": {
+        "warnings": false,
+        "sequences": true,
+        "properties": true,
+        "dead_code": true,
+        "drop_debugger": true,
+        "conditionals": true,
+        "comparisons": true,
+        "evaluate": true,
+        "booleans": true,
+        "loops": true,
+        "unused": true,
+        "hoist_funs": true,
+        "hoist_vars": true,
+        "if_return": true,
+        "join_vars": true,
+        "cascade": true,
+        "negate_iife": true,
+        "drop_console": true,
+        "unsafe": true
+    },
+    "beautify": false,
+    "mangle": true
+}

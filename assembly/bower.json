@@ -1,0 +1,18 @@
+{
+    "name": "",
+    "main": "",
+    "version": "",
+    "authors": [
+        "Oleg Grigoriev <go.vasac@gmail.com>"
+    ],
+    "description": "",
+    "moduleType": [
+        "globals"
+    ],
+    "license": "MIT",
+    "homepage": "",
+    "ignore": [
+        "**/*",
+        "!browser/*.js"
+    ]
+}

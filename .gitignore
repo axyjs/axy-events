@@ -1,0 +1,6 @@
+node_modules
+.idea
+spec/*
+!spec/support
+npm-debug.log
+coverage

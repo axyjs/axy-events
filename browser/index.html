@@ -1,0 +1,33 @@
+<body>
+    <div id="one" style="border: 1px solid black">One</div>
+    <div id="two" style="border: 1px solid black">Two</div>
+    <div id="log" style="border: 1px solid black">log...</div>
+    <script src="./axy-events.min.js"></script>
+    <script>
+        "use strict";
+        (function () {
+            var Emitter = axy.events,
+                em = new Emitter({events: ["one", "two"]});
+            function log(message) {
+                var d = document.createElement("div");
+                document.getElementById("log").appendChild(d);
+                d.appendChild(document.createTextNode(message));
+            }
+            em.add("one", function () {
+                log("one 1");
+            });
+            em.add("one", [null, function (f) {
+                log("one " + f);
+            }, [2]]);
+            em.add("two", function () {
+                log("two");
+            });
+            document.getElementById("one").onclick = function () {
+                em.emit("one");
+            };
+            document.getElementById("two").onclick = function () {
+                em.emit("two");
+            };
+        })();
+    </script>
+</body>

@@ -1,0 +1,38 @@
+{
+  "name": "axy-events",
+  "version": "0.1.0",
+  "description": "An event emitter implementation",
+  "homepage": "https://github.com/axyjs/axy-events",
+  "keywords": [
+    "event",
+    "events",
+    "emitter"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp build && gulp test-without-build"
+  },
+  "author": "Oleg Grigoriev <go.vasac@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "es5-shim": "^4.4.1",
+    "fs-extra": "^0.26.3",
+    "glob": "^6.0.2",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-jasmine": "^2.2.1",
+    "gulp-jasmine-browser": "^0.2.3",
+    "gulp-jasmine-phantom": "^2.0.1",
+    "gulp-jsonlint": "^1.1.1",
+    "gulp-tslint": "^4.2.1",
+    "gulp-typescript": "^2.10.0",
+    "gulp-webpack": "^1.5.0",
+    "jasmine-webpack-plugin": "^0.1.1",
+    "merge2": "^0.3.6",
+    "run-sequence": "^1.1.5",
+    "tslint": "^3.2.1",
+    "webpack": "^1.12.9"
+  },
+  "typings": "./index.d.ts"
+}

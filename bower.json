@@ -1,7 +1,7 @@
 {
     "name": "axy-events",
     "main": "browser/axy-events.min.js",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "authors": [
         "Oleg Grigoriev <go.vasac@gmail.com>"
     ],

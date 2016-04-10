@@ -1,3 +1,4 @@
+"use strict";
 /**
  * An event emitter implementation
  *
